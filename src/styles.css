@@ -1,0 +1,165 @@
+/* styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-player-container {
+  margin-bottom: 20px;
+}
+
+.add-player-container h2,
+.roster-display h2 {
+  color: #333;
+}
+
+.add-player-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-player-form label {
+  margin-bottom: 5px;
+}
+
+.add-player-form input,
+.add-player-form select {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.add-player-form button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-player-form button:hover {
+  background-color: #45a049;
+}
+
+.roster-display ul {
+  list-style: none;
+  padding: 0;
+}
+
+.roster-display li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 8px;
+  width: 150px;
+}
+
+li span {
+  display: block;
+  text-align: center;
+}
+
+/* Class-specific styles */
+.DK {
+  background-color: #c41e3a;
+}
+
+.DH {
+  background-color: #a330c9;
+}
+
+.Priest {
+  background-color: #e9e6e6;
+}
+
+.Monk {
+  background-color: #00ff98;
+}
+
+.Hunter {
+  background-color: #aad372;
+}
+
+.Warlock {
+  background-color: #8788ee;
+}
+
+.Shaman {
+  background-color: #0070dd;
+}
+
+.Evoker {
+  background-color: #33937f;
+}
+
+.Mage {
+  background-color: #3fc7eb;
+}
+
+.Paladin {
+  background-color: #f48cba;
+}
+
+.Rogue {
+  background-color: #fff468;
+}
+
+.Warrior {
+  background-color: #c69b6d;
+}
+.Druid {
+  background-color: #ff7c0a;
+}
+
+.roster-table {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-column,
+.right-column {
+  width: calc(50% - 20px); /* Adjust the width based on the number of columns */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.left-column {
+  order: 1; /* Set the order for left column */
+}
+
+.right-column {
+  order: 2; /* Set the order for right column */
+}
